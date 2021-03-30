@@ -1,0 +1,85 @@
+{
+	"checked": false,
+	"dimensions": {
+		"width": 5,
+		"height": 10
+	},
+
+	"Department": "IT",
+	"Role": "IAM Engineer",
+	"Level": "Elevated",
+	"Birthright AD Groups": 
+[
+    {
+		"groups":
+        [
+            "bluejeans",
+            "concur-users",
+            "crashplan-users",
+            "Domain Users",
+            "Employees",
+		    "gho - users",
+		    "ghr - users",
+		    "gsuite - users",
+		    "jira - sso - users",
+		    "pingboard - users - hr",
+		    "SI - Users",
+		    "slack - users",
+		    "vpn.fte",
+		    "wiki - users - sso"
+        ]
+    }
+],
+		"Birthright Applications":
+[
+    {
+			"application":"BlueJeans",
+			"application":"Code42"
+    }    
+],			
+        "GSuite":
+        [
+            {
+				"Email Distros":
+                [                    
+                    "everyone @rallyhealth.com",
+				    "[LOCATION] office @rallyhealth.com",
+				    "remote @rallyhealth.com",
+				    "itinf @rallyhealth.com",
+				    "Engineering @rallyhealth.com"
+                ]
+           }
+        ],  
+        "JIRA":
+		[
+            {
+                "jira groups":
+                [
+			        "developers",
+				    "employees",
+				    "administrators",
+				    "jira - administrators",
+				    "system - administrators"
+                ]
+            },   
+            {
+                "application":"Office365",
+		        "application":"Slack"
+            },
+        [    
+            {
+                "Wiki":
+        [
+            {
+                "Wiki groups":
+                [
+				    "confluence - users",
+				    "developers",
+				    "rally_employee"
+                ]
+            }
+        ]
+    }
+]
+]
+}
