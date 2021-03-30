@@ -8,7 +8,7 @@
 	"Department": "IT",
 	"Role": "IAM Engineer",
 	"Level": "Elevated",
-	"Birthright AD Groups": 
+	"Birthright AD Groups":
 [
     {
 		"groups":
@@ -30,30 +30,29 @@
         ]
     }
 ],
-		"Birthright Applications":
-[
-    {
-			"application":"BlueJeans",
-			"application":"Code42"
-    }    
-],			
-        "GSuite":
+	"Birthright Applications":
+    [
+        "BlueJeans",
+		"Code42",
+        "GSuite",
         [
             {
-				"Email Distros":
-                [                    
+				"GSuite Distros":
+                [
                     "everyone @rallyhealth.com",
 				    "[LOCATION] office @rallyhealth.com",
 				    "remote @rallyhealth.com",
 				    "itinf @rallyhealth.com",
 				    "Engineering @rallyhealth.com"
                 ]
-           }
-        ],  
-        "JIRA":
+
+            }
+
+        ],
+        "JIRA",
 		[
             {
-                "jira groups":
+                "Jira Groups":
                 [
 			        "developers",
 				    "employees",
@@ -61,14 +60,11 @@
 				    "jira - administrators",
 				    "system - administrators"
                 ]
-            },   
-            {
-                "application":"Office365",
-		        "application":"Slack"
-            },
-        [    
-            {
-                "Wiki":
+            }
+        ],
+        "Office365",
+		"Slack",
+        "Wiki",
         [
             {
                 "Wiki groups":
@@ -79,7 +75,5 @@
                 ]
             }
         ]
-    }
-]
-]
+    ]
 }
